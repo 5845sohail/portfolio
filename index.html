@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d830d6f3c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">S<span>ohail</span></h1>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1 class="text">Hi I am <span><br>Sohail Ansari</span><br>from India
+                </h1>
+            </div>
+        </div>
+   </div> 
+
+   <!-- ---------------About Me--------------- -->
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="about-brief">Pursuing graduate with B.Tech in Computer Science from IIMT university.
+                    Seeking a full-time position as a UX/UI designer and front-end web development in a growing organization where I can use my Creative skill to work towards the organization.</p><br>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI / UX</span><br>
+                            <ul>
+                                <li>Designing Interfaces - Build Wireframes and Low- Fidelity Prototypes</li>
+                                 <li>Create High-Fidelity Designs and Prototypes</li>
+                                <li>Dynamic User Interfaces (UI)</li>
+                            </ul></li><br>
+
+                        <li><span>Web Development</span><br>
+                        </li>
+                            <ul>    
+                                <li>HTML, CSS, JavaScript</li>
+                                <li>React, Tailwind-CSS</li>
+                                <li>Node.js,  mySQL</li>
+                            </ul><br>
+
+                        <li><span>App Development - ANDROID / iOS</span><br>
+                                <ul>
+                                    <li>Kotlin</li>
+                                    <li>Flutter</li>
+                                    <li>Python</li>
+                                </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Interships - Plasma Innovation Ltd.</span><br>
+                            <ul>
+                                <li>Position at Web Developer</li>
+                                <li>language used - HTML-CSS-JS</li>
+                                <li>2024</li>
+                            </ul>
+                        </li><br>
+
+                        <li><span>Internship - InternPe Ltd.</span><br>
+                            <ul>
+                                <li>Position at UI Designer</li>
+                                <li>Tool used - Figma</li>
+                                <li>2023-2024</li>
+                            </ul>
+                        </li><br>
+
+                        <li><span>Internship at Prutor.ai</span><br>
+                            <ul>
+                                <li>Position at Game Developer</li>
+                                <li>language used - Python</li>
+                                <li>Oct 2022 - Nov 2022</li>
+                            </ul>
+                        </li><br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.tech (computer science)</span><br>
+                            <ul>
+                                <li>IIMT Engineering COllege, Meerut. UP</li>
+                                <li>Affiliated to AKTU</li>
+                                <li>Persuing september 2021</li>
+                            </ul>
+                        </li><br>
+
+                        <li><span>XIIth</span><br>
+                            <ul>
+                                <li>St. Thomas High School</li>
+                                <li>Physics, Chemistry, Maths</li>
+                                <li>May 2018 - March 2020</li>
+                            </ul>
+                        </li><br>
+
+                        <li><span>Xth</span><br>
+                            <ul>
+                                <li>St. Thomas High School</li>
+                                <li>May 2016 - March 2018</li>
+                            </ul>
+                        </li><br>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!-- --------------Services----------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>
+                    "Crafting visually stunning and highly functional websites tailored to your brand’s unique identity. I specialize in developing responsive, SEO-friendly websites that provide an engaging user experience on any device. From sleek landing pages to comprehensive e-commerce platforms, I ensure your website not only looks great but performs seamlessly. Let’s build a digital presence that not only attracts visitors but converts them into loyal customers.”
+                    <br><br>
+                    This can also be adjusted to match your personal brand or specific areas of expertise.
+                    
+                </p>
+                <a href="https://www.interaction-design.org/literature/topics/web-design"><button type="button" class="btn">Learn more on WEB</button></a>
+            </div>
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>UX/UI Design</h2>
+                <p>“Designing intuitive and aesthetically pleasing user interfaces that create memorable experiences. My approach to UI/UX design is centered around understanding user behavior and blending it with cutting-edge design principles. I craft interfaces that are not only visually appealing but also highly functional, ensuring users can navigate effortlessly. Whether it’s for a web application, mobile app, or digital product, I focus on creating designs that engage, inspire, and drive user satisfaction.”
+                    <br><br>
+                    You can tweak this to highlight any specific tools or methods you specialize in!</p>
+                <a href="https://www.interaction-design.org/literature/topics/ui-design"><button type="button" class="btn">Learn more on WEB</button></a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>"Transform your ideas into dynamic, user-centric applications that drive results. With a focus on intuitive design, scalable architecture, and seamless user experience, I specialize in developing applications that not only meet your business needs but also exceed user expectations. Whether it’s a mobile app, web application, or a complex enterprise solution, I deliver robust, reliable, and high-performance applications that stand out in today’s competitive market.” <br><br>
+
+                    Feel free to modify this to better fit your style or specific expertise!</p>
+                <a href="https://orases.com/what-is-app-development/" ><button type="button" class="btn">Learn more on WEB</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ------------------------portfolio------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/images/work-1.jpg" alt="#">
+                <div class="layer">
+                    <h3>Educational Website</h3>
+                    <p>Take a glance of mysuccessverse.com </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/images/work-2.jpeg" alt="#">
+                <div class="layer">
+                    <h3>Movie App</h3>
+                    <p>Design of an Movie application</p>
+                    <a href="https://www.figma.com/proto/JFm2V5DrFnBplz14kua9Zz/Movie-app?node-id=4-2&t=zIff02IAoTMMj3dJ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A2" target="_main"><i class="fa-solid fa-up-right-from-square" ></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/images/work-3.png" alt="#">
+                <div class="layer">
+                    <h3>Taxi Booking App</h3>
+                    <p>Design of Taxi Booking mobile application</p>
+                    <a href="https://www.figma.com/proto/5QBkYZFuf3SExdOcRG5fcX/Car-Transportation-app?t=5XtVWrvUnTdgLAbA-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=1-20&starting-point-node-id=1%3A20" target="_main"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ----------------contact ------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>5845sohail@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+917979029971</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/5845sohail/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/5845sohail"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/5845.sohail.ansari"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/5845sohail/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+                <a href="image/images/sohail-ansari-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg" ></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Sohail Ansari. 2024 </p>
+    </div>
+</div>
+
+
+<!-- ------------------script------------------- -->
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby1WyVjjr2hMLfVt8FAJySHqwxN-A7QUZD7j_ClI-j2AxJxuisMg5PT535zLGm0X-bN7g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
